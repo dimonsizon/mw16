@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mercury World - Академия нового сознания</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="К успеху без остановки и тормозов. Открой для себя мощный источник знаний к получению денег." />
+    <meta name="title" content="Mercury World - Академия нового сознания" />
+    <meta name="image" content="http://mercury-world.ru/img/logo.png" />
+    <meta name="keywords" content="Mercury World, Mercury, Меркурий, Академия нового сознания, обучение, управление, финансовый поток, новая жизнь, жизненные ситуации, инвестиции, пассивный доход, вложение средств, работа в интернете" />
+    <meta http-equiv="keywords" content="Mercury World, Mercury, Меркурий, Академия нового сознания, обучение, управление, финансовый поток, новая жизнь, жизненные ситуации, инвестиции, пассивный доход, вложение средств, работа в интернете" />
+    <meta itemprop="name" content="Mercury World - Академия нового сознания" />
+    <meta itemprop="description" content="К успеху без остановки и тормозов. Открой для себя мощный источник знаний к получению денег." />
+    <meta itemprop="image" content="http://mercury-world.ru/img/logo.png" />
+    <meta name="google-site-verification" content="" />
+    
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media-styles.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="img/logo.png" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#main">ГЛАВНАЯ</a></li>
+                <li><a href="#about">О НАС</a></li>
+		        <li><a href="#info">ИНФОРМАЦИЯ</a></li>
+		        <li><a href="#contact">КОНТАКТЫ</a></li>
+                <li><a href="calc.html">КАЛЬКУЛЯТОР</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section style="height: 100px; background-color: #01aefd"></section>
+    <section>
+        <div class="container">
+            <div class="row calc-buttons">
+                <div class="col-md-4 padding10">
+                    <div class="form-group">
+                        <label>Введите сумму первоначального взноса</label>
+                        <input type="number" class="form-control" id="startSumm" value="10000" placeholder="Введите стартовый взнос" onkeyup="calc(this.value)" required="required" />
+                        <span>Значение не может быть меньше 10 000р</span>
+                    </div>
+                </div>
+                <div class="col-md-8 padding10">
+                    <div class="form-group">
+                        <button class="btn btn btn-primary" onclick="calc(10000)">Минимальный взнос</button>
+                        <button class="btn btn btn-primary" onclick="calc(30000)">Начало со взноса 30 000р</button>
+                        <button class="btn btn btn-primary" onclick="calc(50000)">Начало со взноса 50 000р</button>
+                        <button class="btn btn btn-primary" onclick="calc(100000)">Начало со взноса 100 000р</button>
+                        <button class="btn btn btn-primary" onclick="calc(150000)">Начало со взноса 150 000р</button>
+                        <button class="btn btn btn-primary" onclick="calc(200000)">Начало со взноса 200 000р</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class ="col-md-7">
+                    <table id="contributionsTable" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Взнос</th>
+                                <th>Доход со взносов</th>
+                                <th>Чистая прибыль</th>
+                                <th>Всего взнос</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow shake" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#main" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Copyright 2015 - Mercury World. All rights reserved</p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/jquery.easing.min.js"></script>-->	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/culc.js"></script>
+</body>
+</html>

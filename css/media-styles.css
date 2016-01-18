@@ -1,0 +1,106 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }        
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+	
+    .main {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }	
+
+    .main-text {
+        font-size: 25px;
+    }
+
+}
+@media (max-width:768px) {
+    .main {
+        height: 100%;
+        padding: 0;
+    }
+
+    .navbar {
+        background: #003d7f; /* Old browsers */
+        background: -moz-linear-gradient(45deg,  #003d7f 0%, #004186 16%, #0169b2 48%, #0073bc 62%, #01aefd 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#003d7f), color-stop(16%,#004186), color-stop(48%,#0169b2), color-stop(62%,#0073bc), color-stop(100%,#01aefd)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(45deg,  #003d7f 0%,#004186 16%,#0169b2 48%,#0073bc 62%,#01aefd 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(45deg,  #003d7f 0%,#004186 16%,#0169b2 48%,#0073bc 62%,#01aefd 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(45deg,  #003d7f 0%,#004186 16%,#0169b2 48%,#0073bc 62%,#01aefd 100%); /* IE10+ */background: linear-gradient(45deg,  #003d7f 0%,#004186 16%,#0169b2 48%,#0073bc 62%,#01aefd 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003d7f', endColorstr='#01aefd',GradientType=1 );
+    }
+
+        .navbar .nav.navbar-nav {
+            background-color: rgba(0,0,0,0);
+        }
+
+	.navbar-custom .navbar-brand.logo {
+        margin-top: -3px;
+    }
+
+        .navbar-brand.logo img {
+            width: 50px;
+        }
+
+	.team.boxed-grey {
+		margin-bottom: 30px;
+	}
+	
+	.boxed-grey {
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+@media (max-width:480px) {
+
+	/*.navbar-custom .nav.navbar-nav {
+    background-color: rgba(255,255,255,.4);
+	}*/
+	
+	.navbar.navbar-custom.navbar-fixed-top {
+		margin-bottom: 30px;
+	}
+	
+	.tp-banner-container {
+		padding-top:40px;
+	}
+
+	.page-scroll a.btn-circle {
+		width: 40px;
+		height: 40px;
+		margin-top: 10px;
+		padding: 7px 0;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		font-size: 20px;
+	}
+
+    .success-section .text-container {
+        padding-top: 60px;
+    }
+
+        .success-section .text-container h2 {
+            font-size: 32px;
+            line-height: 40px;
+        }
+	
+}
